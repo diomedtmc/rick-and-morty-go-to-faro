@@ -151,7 +151,7 @@ export default function Home() {
           { isFetching && <Loader/>}
         </div>
         <div className={styles.previous}>
-            {filtered.map(character => <Thumbnail character={character} displayExtendedInfo={false} size={ThumbnailSize.Small}/>)}
+            {filtered.map(character => <Thumbnail key={character.id.toString()} character={character} displayExtendedInfo={false} size={ThumbnailSize.Small}/>)}
         </div>
       </main>
     </>
