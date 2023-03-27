@@ -17,4 +17,4 @@ The steps to run the project are as follows:
 1.  ```npm run lint``` runs a lint checker for code styles
 2.  ```npm run test``` runs the unit tests suite written using Jest
 3.  ```npm run build``` compiles the source for deployment
-4.  ```npm start``` runs the compiled build, and you can access the app via the [Home Page: http://localhost:3000](http://localhost:3000). **NOTE**: You must run ```npm run build``` before executing this command.
+4.  ```npm start``` runs the compiled build, and you can access the app via the [Home Page: http://localhost:3000](http://localhost:3000). **NOTE**: This will run ```npm run build``` before starting the app.

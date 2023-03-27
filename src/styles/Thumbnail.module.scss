@@ -1,0 +1,51 @@
+.thumbnail {
+    position: relative;
+    padding: 1rem 1.2rem;
+
+    &.small {
+        width: 10rem;
+    }
+
+    ul {
+        list-style: none;
+        position: relative;
+    }
+
+    li {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    img {
+        width: 100%;
+
+        &:hover {
+            + .location {
+                display: block;
+            }
+        }
+    }
+
+    section {
+        display: block;
+    }
+    
+    .location {
+        display: none;
+        position: absolute;
+        top: 1rem;
+        left: 1.2rem;
+        right: 1.2rem;
+
+        .background {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: black;
+            opacity: .85;
+        }
+    }
+}

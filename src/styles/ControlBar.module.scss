@@ -1,0 +1,10 @@
+.controlbar {
+    display: flex;
+    flex-direction: row;
+
+    button {
+        padding: 0.2rem;
+        min-width: 7rem;
+        margin: 0 1rem;
+    }
+}
